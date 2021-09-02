@@ -1,0 +1,53 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+
+    background:url(../img/bgimg.jpg); 
+   
+    background-size: cover;
+    min-height: 120vh;
+    
+
+}
+
+#contentMain
+{
+
+    width: 80%;
+    background: rgba( 255, 255, 255, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.dropdown-menu>li
+{
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subjectInput
+{
+    font-weight: 600;
+}
+#centerEle,#displayOptions,#displaySubmit,#subjectInput,#result
+{
+    margin:1em 0 1em 0;
+    text-align: center;
+}
+
+#displaySubmit
+{
+    display: flex;
+    justify-content:space-around;
+}
+
