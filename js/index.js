@@ -49,6 +49,8 @@ function displayDropbox(next)
                 <option>3.0</option>
                 <option>3.5</option>
                 <option>4.0</option>
+                <option>4.5</option>
+                <option>5.0</option>
         </select>
         <br>
         <br>
@@ -103,7 +105,7 @@ function calcSgpa(totSub)
                 product+=cr*6;
                 break;
             case('E'):
-                product+=cr*5;
+                product+=cr*4;
                 break;       
             
             default:
