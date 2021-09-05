@@ -16,7 +16,7 @@ let product=0
     totSub=0
     
 })*/
-
+displayDropbox(1)
 g.addEventListener('change', function(){
     h.innerHTML=''
     resultValue.innerHTML=' '
@@ -31,7 +31,7 @@ function displayDropbox(next)
     {   
         h.innerHTML+=
         `<label>Select grade: </label>
-        <select id="selectGrade`+limit+`" style="margin-bottom:0.2em">
+        <select id="selectGrade`+limit+`" style="margin-bottom:0.2em;width:3em;border-radius: 5px;">
                 <option>S</option>
                 <option>A</option>
                 <option>B</option>
@@ -41,7 +41,7 @@ function displayDropbox(next)
         </select>
         <br>
         <label>Select credits: </label>
-        <select id="selectValue`+limit+`">
+        <select id="selectValue`+limit+`" style="width:3em;border-radius: 5px;">
                 <option>1.0</option>
                 <option>1.5</option>
                 <option>2.0</option>
