@@ -1,2 +1,2 @@
 # sgpa_calculator
-https://cbcs-calculator.netlify.app
+# Easy-to-use GPA calculator app for credit based education system.
