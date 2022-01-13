@@ -1,21 +1,8 @@
 let resultValue= document.getElementById("result")
-/*let c=document.getElementById("gradeInput")
-let d=document.getElementById("creditInput")*/
 let g=document.getElementById("selectTotal")
 let h=document.getElementById("displayOptions")
 let product=0
 
-/*g.addEventListener("click",function()
-{
-    h.innerHTML=''
-    resultValue.innerHTML=' '
-    let b=document.getElementById("selectTotal")
-    let totSub=b.options[b.selectedIndex].text
-    displayDropbox(totSub)
-    b=0
-    totSub=0
-    
-})*/
 displayDropbox(1)
 g.addEventListener('change', function(){
     h.innerHTML=''
