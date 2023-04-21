@@ -102,7 +102,7 @@ function calcSgpa(totSub)
     }
     let sgpa=parseFloat((product/totalCredits).toFixed(3))
     let per=((sgpa-0.75)*10).toFixed(2)
-    resultValue.innerHTML="Your SGPA is: "+`<b>`+ sgpa+`</b>`+"Your Percentage is: "+`<b>`+ per+"%"+`</b>`
+    resultValue.innerHTML="Your SGPA is: "+`<b>`+ sgpa+`</b>`
     product=0
     totalCredits=0
 }
