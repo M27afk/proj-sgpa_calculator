@@ -89,7 +89,7 @@ function calcSgpa(totSub)
                 product+=cr*7;
                 break;
             case('D'):
-                product+=cr*6;
+                product+=cr*5;
                 break;
             case('E'):
                 product+=cr*4;
